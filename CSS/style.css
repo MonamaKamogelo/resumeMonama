@@ -1,0 +1,136 @@
+:root{
+    --Gold:rgb(160, 117, 9);
+    --Dblue:rgb(39, 39, 85);
+    --Dlight:rgba(104, 104, 206, 0.205);
+}
+body{
+    padding: 20px;
+    background-color: gray;
+}
+.container{
+    padding: 5em;
+    margin-top: 1em;
+    max-width: 75em;
+    background-color: white;
+    box-shadow: 1em 1em 1em;
+}
+
+
+.heading{
+    text-align: center;
+    border: solid .45em var(--Gold);
+    width: 100%;
+    padding: 1em;
+    letter-spacing: .5em;
+}
+.head{
+    margin-top: .5em;
+    text-align: center;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 6vh;
+}
+.title h2{
+    background-color: var(--Dblue);
+    font-size: 3vh;
+    color: white;
+    padding: .5em;
+    text-align: center;
+    position: absolute;
+    letter-spacing: .25em;
+    z-index: 2;
+}
+.abu{
+    position: relative;
+    left: 25%;
+    right: 25%;
+
+}
+.title hr{
+    opacity: 1;
+    border-top:solid 1vh var(--Gold) ;
+    position: relative;
+    z-index: 1;
+    top: 3vh;
+}
+a{
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+.para{
+    margin: 1%;
+    font-size: 100%;
+}
+p{
+    font-size: 100%;
+}
+.life-experiance{
+    margin: 0;
+}
+.education{
+    background-color: var(--Dlight);
+}
+.education h2{
+    margin: 0;
+    letter-spacing: .25em;
+}
+.experience{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: square;
+    color: var(--Dblue);
+}
+.exp{
+    text-align: left;
+    margin: auto;
+    left: 0;
+    top: 0;
+}
+.exp_top{
+    margin-top: 1%;
+    padding: 2%;
+}
+h4{
+    padding-top: 5%;
+    font-weight: bold;
+}
+h2{
+    font-size: 110%;
+}
+p{
+    font-size: 90%;
+}
+@media screen and (max-width:768px)  {
+    .head{
+        font-size: 80%;
+    }
+    .education{
+        padding: 20px;
+    }
+    .abu{
+        left: 25%;
+        right: 25%;
+    }
+    .title{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:425px) {
+    .title{
+        margin-bottom: 1.5em;
+    }
+    #hrID{
+        top: 4.5vh;
+    }
+    
+}
